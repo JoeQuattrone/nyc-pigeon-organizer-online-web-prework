@@ -54,7 +54,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         new_hash[name] ||= {}
         new_hash[name][attributes] ||= []
-        new_hash[name][attrubutes].push(key.to_s)
+        new_hash[name][attributes].push(key.to_s)
 >>>>>>> a3d59c4639c953a0147d00e33a5badbad5a41b86
       end
     end
